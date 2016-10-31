@@ -1,0 +1,377 @@
+/* Variables */
+/* Small Navigation */
+@media only screen and (max-width: 30rem){
+.logo-small {
+  float: right; }
+
+.title-bar {
+  padding: 0 .5rem;
+  background-color: rgba(232, 44, 12, 1);
+  font-family: 'Inconsolata', monospace;
+  border-bottom: 1rem solid rgba(187, 30, 5, 1);
+    }
+
+    #nav-menu {
+      padding: 0;
+    }
+
+          #navmenu a {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+        font-size: 1.4rem;
+        padding: .7rem;
+        font-family: 'Inconsolata', monospace;
+        border-top: 1px solid #fff;
+      }
+
+
+      #navmenu a:hover {
+        background-color: #000;
+    
+      }
+
+.menu-icon,
+.title-bar-title {
+  position: relative;
+  top: 10px;
+  background-color: rgba(232, 44, 12, 1); 
+   }
+
+        .button {
+        background-color: #fff;
+        border: 1px solid rgba(232, 44, 12, 1);
+        color: rgba(232, 44, 12, 1);
+        font-family: 'Inconsolata', monospace; 
+      }
+
+      .button:hover, .button:focus {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+
+      }
+
+            #main img {
+         box-shadow: 10px 10px 10px #888888;
+        margin: 0rem 0rem 2rem 0rem;
+      }
+
+      #main {
+        text-align: center;
+        
+      }
+
+
+      #new iframe {
+        margin-bottom: 1rem;
+      }
+
+
+            #teaser {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        padding: 0rem .5rem;
+      }
+
+
+            #top-footer {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+        font-family: 'Inconsolata', monospace;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+
+      #top-footer p {
+        margin: 0;
+        text-align: center;
+      }
+
+      #bottom-footer {
+        text-align: center;
+        margin: 0 auto;
+        font-family: sans-serif;
+        font-size: .8rem;
+      }
+
+      #bottom-footer p {
+        margin: 1rem 0rem;
+      }
+.top-bar-left {
+  float: none;
+  text-align: center;
+}
+
+.top-bar-right {
+  float: none;
+  text-align: center;
+}
+
+      #bottom-footer a {
+        color: rgba(232, 44, 12, 1);
+      }
+
+      #top-footer a {
+        color: #fff;
+      }
+
+            #singles {
+        margin-top: 2rem;
+        margin-bottom: 3.5rem;
+      }
+
+      #singles h3 {
+         font-family: 'Inconsolata', monospace;
+         padding-left: 1rem;
+      }
+
+      #singles a img {
+        padding: .3rem;
+      }
+      
+      #vid {
+        padding: 1rem;
+      }
+      
+      audio {
+        margin-bottom: 1.5rem;
+      }
+
+      #singles a img {
+        padding: .4rem .2rem;
+      }
+ #singles a {
+  margin: .5rem 0rem 1.5rem 0rem ;
+  float: right;
+ }
+
+ #singles a:last-child {
+    margin-right: .5rem;
+ }
+
+  #vid {
+  text-align: center;
+ }
+
+#contact h1 {
+  text-align: center;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+#contact p {
+  text-align: center;
+}
+
+figure {
+  margin: 1rem 20px;
+}
+#shop a {
+  color:#000; 
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+      #shop h3 {
+         font-family: 'Inconsolata', monospace;
+         padding: 1rem 1rem 0rem 1rem;
+      }
+
+#shop {
+  margin-bottom: 4rem;
+}
+
+
+#scroll-box {
+    max-height: 25rem;
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+
+
+}
+
+
+/* Medium-Up Navigation */
+@media only screen and (min-width: 40rem) {
+
+nav {
+  margin: 0 auto;
+}
+
+
+
+.top-bar {
+  background-color: rgba(232, 44, 12, 1);
+  padding: 0;
+}
+    
+
+      #navmenu a {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+        font-size: 1.4rem;
+        padding: 1.5rem 1rem;
+        font-family: 'Inconsolata', monospace;
+
+      }
+
+      #navmenu a:hover {
+        background-color: #000;
+    
+      }
+
+
+      #main img {
+         box-shadow: 10px 10px 10px #888888;
+        margin: 2rem 0rem;
+      }
+      
+      #main iframe {
+        margin: 2rem 0rem;
+      }
+
+      #new {
+        margin: 2rem 0rem 2rem 0rem;
+      }
+
+
+
+      #teaser {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+      }
+
+      #teaser iframe {
+    
+        padding: 4rem 6rem 2rem 6rem;
+      }
+
+      .button {
+        background-color: #fff;
+        border: 1px solid rgba(232, 44, 12, 1);
+        color: rgba(232, 44, 12, 1);
+        
+      }
+
+      .button:hover, .button:focus {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+      }
+
+      #top-footer {
+        background-color: rgba(232, 44, 12, 1);
+        color: #fff;
+        font-family: 'Inconsolata', monospace;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+
+      #top-footer p {
+        margin: 0;
+      }
+
+      #top-footer a {
+        color: #fff;
+      }
+
+      #bottom-footer {
+        text-align: center;
+        margin: 0 auto;
+        font-family: sans-serif;
+        font-size: .8rem;
+      }
+
+      #bottom-footer p {
+        margin: 1rem 0rem;
+      }
+
+      #bottom-footer a {
+        color: rgba(232, 44, 12, 1);
+      }
+      
+      #singles {
+        margin-top: 2rem;
+        margin-bottom: 3.5rem;
+      }
+
+      #singles h3 {
+         font-family: 'Inconsolata', monospace;
+         padding-left: 1rem;
+      }
+      
+      #vid {
+        padding: 1rem;
+      }
+
+      .flex-video iframe {
+        padding: 5rem 10rem 1rem 10rem;
+      }
+      
+            audio {
+        margin-bottom: 1.5rem;
+      }
+      
+            #singles a img {
+        padding: .4rem .2rem;
+      }
+ #singles a {
+  margin: .5rem 0rem;
+  float: right;
+ }
+
+ #singles a:last-child {
+    margin-right: .5rem;
+ }
+
+ #vid {
+  text-align: center;
+ }
+
+ #contact h1 {
+  text-align: center;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+#contact p {
+  text-align: center;
+  font-style: italic;
+
+}
+
+#shop {
+  margin-bottom: 4rem;
+}
+
+#shop a {
+  color:#000; 
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+      #shop h3 {
+         font-family: 'Inconsolata', monospace;
+         padding-left: 2.5rem;
+         padding-top: 1rem;
+      }
+
+#scroll-box {
+    max-height: 24rem;
+    overflow: auto;
+}
+
+
+
+
+
+       }
