@@ -199,6 +199,8 @@ figcaption {
 /* Medium-Up Navigation */
 @media only screen and (min-width: 40rem) {
 
+
+
 nav {
   margin: 0 auto;
 }
@@ -208,7 +210,15 @@ nav {
 .top-bar {
   background-color: rgba(232, 44, 12, 1);
   padding: 0;
-  border-bottom: 1rem solid rgba(187, 30, 5, 1);
+    border-bottom: 1rem solid rgba(187, 30, 5, 1);
+
+}
+
+
+
+.top-bar img {
+  margin-top: .5rem;
+  margin-right: .5rem;
 }
     
 
