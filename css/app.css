@@ -208,6 +208,7 @@ nav {
 .top-bar {
   background-color: rgba(232, 44, 12, 1);
   padding: 0;
+  border-bottom: 1rem solid rgba(187, 30, 5, 1);
 }
     
 
