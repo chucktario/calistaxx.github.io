@@ -216,7 +216,7 @@ nav {
 
 
 
-.top-bar-right img {
+.top-bar img {
   margin-top: .5rem;
   margin-right: .5rem;
 }
@@ -320,7 +320,7 @@ nav {
       }
 
       .flex-video iframe {
-        padding: 5rem 10rem 1rem 10rem;
+        padding: 5rem 7rem 1rem 7rem;
       }
       
             audio {
