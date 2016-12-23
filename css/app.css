@@ -30,6 +30,10 @@
     
       }
 
+      #navmenu li img {
+        display: none;
+      }
+
 .menu-icon,
 .title-bar-title {
   position: relative;
