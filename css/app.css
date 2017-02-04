@@ -190,11 +190,6 @@ figcaption {
 }
 
 
-#scroll-box {
-    max-height: 25rem;
-    overflow: auto;
-    margin-bottom: 1rem;
-}
 
 
 }
@@ -380,9 +375,7 @@ figcaption {
          padding-top: 1rem;
       }
 
-#scroll-box {
-   
-}
+
 
 
 
