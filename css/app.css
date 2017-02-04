@@ -30,10 +30,6 @@
     
       }
 
-      #navmenu li img {
-        display: none;
-      }
-
 .menu-icon,
 .title-bar-title {
   position: relative;
@@ -167,43 +163,12 @@
   text-align: center;
 }
 
-figure {
-  margin: 1rem 20px;
-}
-#shop a {
-  color:#000; 
-}
-
-figcaption {
-  text-align: center;
-  font-weight: bold;
-}
-
-
-      #shop h3 {
-         font-family: 'Inconsolata', monospace;
-         padding: 1rem 1rem 0rem 1rem;
-      }
-
-#shop {
-  margin-bottom: 4rem;
-}
-
-
-#scroll-box {
-    max-height: 25rem;
-    overflow: auto;
-    margin-bottom: 1rem;
-}
-
 
 }
 
 
 /* Medium-Up Navigation */
 @media only screen and (min-width: 40rem) {
-
-
 
 nav {
   margin: 0 auto;
@@ -214,15 +179,6 @@ nav {
 .top-bar {
   background-color: rgba(232, 44, 12, 1);
   padding: 0;
-    border-bottom: 1rem solid rgba(187, 30, 5, 1);
-
-}
-
-
-
-.top-bar img {
-  margin-top: .5rem;
-  margin-right: .5rem;
 }
     
 
@@ -251,10 +207,12 @@ nav {
       }
 
       #new {
-        margin: 2rem 0rem 2rem 0rem;
+        margin: 2rem 0rem 5rem 0rem;
       }
 
-
+      #new b {
+        color: #f50;
+      }
 
       #teaser {
         text-align: center;
@@ -324,7 +282,7 @@ nav {
       }
 
       .flex-video iframe {
-        padding: 5rem 7rem 1rem 7rem;
+        padding: 5rem 10rem 1rem 10rem;
       }
       
             audio {
@@ -359,33 +317,6 @@ nav {
   font-style: italic;
 
 }
-
-#shop {
-  margin-bottom: 4rem;
-}
-
-#shop a {
-  color:#000; 
-}
-
-figcaption {
-  text-align: center;
-  font-weight: bold;
-}
-
-
-      #shop h3 {
-         font-family: 'Inconsolata', monospace;
-         padding-left: 2.5rem;
-         padding-top: 1rem;
-      }
-
-#scroll-box {
-    max-height: 24rem;
-    overflow: auto;
-}
-
-
 
 
 
